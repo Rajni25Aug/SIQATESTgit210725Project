@@ -12,14 +12,6 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 services:
-- serviceName: project.siqatestgit210725.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1
-  packages:
-  - name: SIQATESTgit210725Project
-    version: "1.0"
-  - name: WmJDBCAdapter
-    version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
-    wpmRegistry: licensed
 - serviceName: project.siqatestgit210725.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
   packages:
   - name: SIQATESTgit210725Project
@@ -29,14 +21,6 @@ services:
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
 - serviceName: project.siqatestgit210725.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBNewInsert
-  packages:
-  - name: SIQATESTgit210725Project
-    version: "1.0"
-  - name: WmJDBCAdapter
-    version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
-    wpmRegistry: licensed
-- serviceName: project.siqatestgit210725.integrations:SIQAAdapterFlow
   packages:
   - name: SIQATESTgit210725Project
     version: "1.0"
@@ -60,7 +44,7 @@ configurationVariables:
   ? artConnection.SIQATESTgit210725Project.project.siqatestgit210725.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.poolable
   : "false"
   ? artConnection.SIQATESTgit210725Project.project.siqatestgit210725.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.password
-  : "{AES}D6/2AGfsSWDOcWCLrORnEQ=="
+  : "{AES}aYrXC43dTWsDUHRWG5mhTA=="
   ? artConnection.SIQATESTgit210725Project.project.siqatestgit210725.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.datasourceClass
   : com.mysql.cj.jdbc.MysqlDataSource
   ? artConnection.SIQATESTgit210725Project.project.siqatestgit210725.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.poolIncrementSize
